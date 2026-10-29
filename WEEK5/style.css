@@ -1,0 +1,19 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.card {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+
+#hero {
+    background-color: lightblue;
+    text-align: center;
+    padding: 30px;
+}
