@@ -22,14 +22,19 @@ body {
     text-align: center;
     font-style:oblique;
 }
+main{
+    padding: 20px;
+}
 
 .profile-card {
     width: 300px;
+    max-width: 100%;
     padding: 20px;
     margin: 20px auto;
     border: 2px solid #cccccc;
     border-radius: 20px;
     background-color: white;
+    overflow: hidden;
 }
 
 .bio {
@@ -39,6 +44,7 @@ body {
     border: 1px solid #cccccc;
     border-radius: 10px;
     text-align: left;
+    line-height: 1.5;
 }
 
 .avatar {
@@ -72,4 +78,41 @@ body {
 }
 .orange-card .avatar{
     background-color:white ;
+}
+
+
+.top-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 10px;
+    background-color: #173b70;
+    color: white;
+}
+
+
+.add-button {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 20;
+
+    width: 60px;
+    height: 60px;
+
+    border: none;
+    border-radius: 50%;
+    background-color: #173b70;
+    color: white;
+
+    font-size: 32px;
+    cursor: pointer;
+}
+@media (max-width: 400px){
+    main{
+        padding: 10px;
+    }
+    .profile-card{
+        padding: 15px;
+    }
 }
