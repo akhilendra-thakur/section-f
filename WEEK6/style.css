@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color:lightskyblue;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -8,4 +8,59 @@ h1{
 }
 div{
     background-color:azure;
+} */
+ 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color:lightsteelblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-style:oblique;
+}
+
+.profile-card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #cccccc;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #dddddd;
+    color: #222222;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+.profile-card h2 {
+    margin-bottom: 5px;
+}
+
+.role {
+    color: #555555;
+}
+
+.blue-card {
+    border-color: blue;
+}
+
+.blue-card .avatar {
+    background-color: white
+}
+.orange-card{
+    border-color:darkorange;
+}
+.orange-card .avatar{
+    background-color:white ;
 }
