@@ -63,3 +63,29 @@ h1{
         "foot";
     }
 }
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    border-radius: 8px;
+
+}
+.icon{
+    font-size: 30px;
+
+}
+.box h3{
+    margin: 0 0 8px;
+}
+.box p{
+    margin: 0;
+}
