@@ -19,3 +19,47 @@ h1{
     border: 1px solid blue;
     border-radius: 8px;
 }
+.dashboard{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 70px 1fr 60px;
+    grid-template-areas: 
+    "head head"
+    "side main"
+    "foot foot";
+    gap: 10px;
+}
+.head {
+    grid-area: head;
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+}
+.side{
+    grid-area: side;
+    background-color: lightblue;
+    padding: 20px;
+}
+.main{
+    grid-area: main;
+    background-color: white;
+    padding: 20px;
+}
+.foot{
+    grid-area: foot;
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width: 600px){
+    .dashboard{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-areas: 
+        "head"
+        "side"
+        "main"
+        "foot";
+    }
+}
