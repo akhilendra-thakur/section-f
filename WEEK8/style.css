@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+}
+.box {
+    padding: 30px;
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid blue;
+    border-radius: 8px;
+}
