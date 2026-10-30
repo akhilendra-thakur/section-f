@@ -32,3 +32,29 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+.banner{
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 20px;
+background-color: lightblue;
+}
+.banner h1{
+    font-size: 40px;
+    color: navy;
+}
+.banner p {
+    font-size: 18px;
+
+}
+.banner button {
+    padding: 12px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
