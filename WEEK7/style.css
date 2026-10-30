@@ -58,3 +58,19 @@ background-color: lightblue;
     border-radius: 5px;
     cursor: pointer;
 }
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    flex: 1 1 200px;
+    padding: 25px;
+    background-color: lightskyblue;
+    border: 1px solid blue;
+    border-radius: 10px;
+
+}
+.card h2 {
+    color:navy ;
+}
